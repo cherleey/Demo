@@ -2,6 +2,20 @@
 
 #include "MyPlayer.h"
 
+AMyPlayer::AMyPlayer()
+{
+}
 
+AMyPlayer::~AMyPlayer()
+{
+}
 
+void AMyPlayer::BeginPlay()
+{
+	PrimaryActorTick.bCanEverTick = true;
+}
 
+void AMyPlayer::Tick(float DeltaSeconds)
+{
+
+}
